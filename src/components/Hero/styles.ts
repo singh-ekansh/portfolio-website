@@ -25,36 +25,29 @@ export const Container = styled.section`
     }
   }
 
-  // Updated social media icons for dynamic positioning
+  // Updated: Removed transition and ensured static positioning of social media icons
   .social-media {
-    display: flex; // Flexbox for dynamic behavior
+    display: inline-flex; // Keeping the inline-flex for static alignment
     align-items: center;
-    justify-content: center; // Center align on the page
+    justify-content: flex-start; // Align to the start (left side) of the container
     gap: 1rem;
     padding-top: 5rem;
     padding-left: 1rem;
-    transition: all 0.3s ease; // Smooth transition for responsiveness
 
     img,
     span {
       font-size: 3rem;
       width: 3.5rem;
-      transition: transform 0.2s ease; // Smooth hover effect
     }
 
-    // Hover effect to enlarge icons on hover
-    img:hover,
-    span:hover {
-      transform: scale(1.1);
-    }
-
+    // Removed hover effect to ensure no movement
     @media (max-width: 960px) {
-      gap: 1.5rem; // Increase gap for larger screens
+      gap: 1.5rem;
     }
 
     @media (max-width: 600px) {
-      gap: 1rem; // Adjust gap for smaller screens
-      padding-top: 3rem; // Reduce padding on smaller screens
+      gap: 1rem;
+      padding-top: 3rem;
     }
   }
 

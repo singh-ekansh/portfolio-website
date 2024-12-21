@@ -27,7 +27,7 @@ export function Hero() {
             Contact
           </NavHashLink>
         </BrowserRouter>
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        <ScrollAnimation animateIn="fadeInleft" delay={0}>
           <div className="social-media">
             <a
               href="https://www.linkedin.com/in/ekanshsinghin/"
