@@ -74,16 +74,16 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Credit Risk Analysis Project</h3>
+              <h3>Lunar Crater Detection System</h3>
               <p>
-                Developed a highly accurate credit risk classification model using XGBoost, achieving 100% precision, recall, and F1-scores for predicting loan defaults.Implemented rigorous data preprocessing, feature engineering, and hyperparameter tuning on imbalanced credit risk data, employing ensemble methods, cross-validation, and model interpretation techniques.
+              Developed a machine learning-based application using Streamlit and TensorFlow to detect lunar craters from surface images. The app features an intuitive UI for image upload, processing, and results display, leveraging advanced deep learning models for accurate crater identification.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>XGBoost</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
+                <li>TensorFlow</li>
+                <li>Streamlit</li>
+                <li>YOLOv5 Dataset</li>
               </ul>
             </footer>
           </div>
@@ -103,15 +103,15 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>MediBook: Medical Appointment Scheduler with Health History</h3>
-              <p>Developed a secure medical appointment management platform with CRUD functionality, utilizing role-based access control, encryption techniques, and a robust MySQL database with normalized schema design and stored procedures for efficient scheduling, data privacy, and reliable retrieval of patient records.</p>
+              <h3>Dynamic Academic Management System for ECED-TIET</h3>
+              <p>Built a React-based app for managing academic workflows with features like user authentication, research paper submissions, attendance tracking, and internal assessments. Included lazy loading for performance, dynamic routing, and responsive UI.</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>PHP</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>MySQL</li>
+                <li>React</li>
+                <li>NodeJs</li>
+                <li>Express</li>
+                <li>MongoDB</li>
               </ul>
             </footer>
           </div>
@@ -134,14 +134,15 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Real-Time Hand Gesture-Driven 3D Object Manipulation</h3>
-              <p>Developed a real-time hand gesture recognition system for intuitive 3D object manipulation. Leveraged a multimodal approach integrating OpenCV for video processing, MediaPipe for hand detection/landmark extraction, and scikit-learn for machine learning model training. Achieved 95.2% accuracy in hand gesture classification with efficient real-time performance.</p>
+              <h3>Electricity Bill Prediction App FOR Smart India</h3>
+              <p>Developed an interactive Streamlit app to predict electricity bills using ML models like Linear Regression, Random Forest, XGBoost, and ANN. It preprocesses user inputs with scaling and one-hot encoding, displaying metrics like MAE, MSE, and R². The app offers a responsive UI for custom inputs and algorithm selection.</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>OpenCV</li>
-                <li>MediaPipe</li>
-                <li>scikit-learn</li>
+                <li>Python</li>
+                <li>Streamlit</li>
+                <li>Pandas</li>
+               
               </ul>
             </footer>
           </div>
@@ -174,7 +175,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        {/* <ScrollAnimation animateIn="flipInX">
+        { <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -185,21 +186,22 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>MedicalBooks - Book Selling Site</h3>
+              <h3>ServiceHive - Tech Consulting Firm</h3>
               <p>
-                This website sells medical books online and is popular with medical students. Medical students use it to buy books and acquire knowledge. The site has all kinds of medical books in one place.
+              Developed the ServiceHive platform as a freelance developer, offering services like mobile/web app development, UI/UX design, and AI consultancy. Created a user-friendly interface to showcase the company’s expertise in providing customized digital solutions for businesses, enhancing their online presence and operational efficiency. 
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Wordpress</li>
-                <li>Woocommerce</li>
+                <li>Elementor</li>
+                <li>Hostinger</li>
               </ul>
             </footer>
           </div>
-        </ScrollAnimation> */}
+        </ScrollAnimation> }
 
-        {/* <ScrollAnimation animateIn="flipInX">
+        { <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -210,18 +212,21 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Dr.Rohit Damor - Online Appointment Booking Site</h3>
+              <h3>WhizWear - Online Fashion Store</h3>
               <p>
-                This website allows people to easily book appointments with you online. It takes just a minute to schedule a meeting. This kind of site is helpful for booking appointments and not missing any potential clients. You should try this website to see how convenient and efficient it is.
+              Developed Whiz Wear as a freelance developer, utilizing Elementor for website design, WooCommerce for e-commerce functionality, and Razorpay for seamless payment integration. The brand offers thoughtfully designed apparel celebrating intellect and individuality, with high-quality fabrics and vibrant inks.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>
+                <li>Hostinger</li>
+                <li>Elementor</li>
+                <li>Woocommerce</li>
+                <li>Razorpay</li>
               </ul>
             </footer>
           </div>
-        </ScrollAnimation> */}
+        </ScrollAnimation> }
 
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
