@@ -41,11 +41,11 @@ export const Container = styled.section`
         color: var(--black);
         font-weight: 500;
       }
-      &:hover{
-        background-color: var(--pink);
-        a{
-          color: #FFF;
-        }
+      // &:hover{
+      //   background-color: var(--pink);
+      //   a{
+      //     color: #FFF;
+      //   }
       }
     }
   }
