@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.section`
   margin-top: 15rem;
   
@@ -28,7 +27,6 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: var(--pink);
       }
 
       header{
