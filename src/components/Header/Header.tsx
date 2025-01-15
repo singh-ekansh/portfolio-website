@@ -3,7 +3,6 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import Resume from '../../assets/Ekansh_Singh_CV.pdf'
-import signatureImage from '../../assets/signature.png';
 
 export function Header() {
   const [isActive, setActive] = useState(false)
@@ -18,11 +17,8 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
       <HashLink smooth to="#home" className="logo">
-          <img
-            src={signatureImage} 
-            alt="Logo"
-            className="logo-image"
-          />
+          <span>"Ekansh "</span>
+          <span>"Singh "</span>
         </HashLink>
         <input
           onChange={toggleTheme}
